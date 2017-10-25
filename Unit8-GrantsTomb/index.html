@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unit 08 - Grant's Tomb</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,900|Lora:400i" rel="stylesheet">
+</head>
+<body onload="question1.displayContent()">
+<div id="wrapper">
+<header>
+<h1 id="company">Grant's Tomb</h1>
+<h2 id="slogan">Literal Objects</h2>
+</header>
+
+<main>
+<h1 class="tomb-title">Grant's Tomb</h1>
+
+<article>
+
+<h2>What I learned</h2>
+<ul class="objectives">
+	<li>Create a literal object with properties and methods</li>
+	<li>Access properties in an object</li>
+	<li>Access methods of an object</li>
+	<li>Use string concatenation</li>
+	<li>Use getElementById and innerHTML to dynamically change text on the screen</li>
+	<li>Implement conditional checking</li>
+</ul>
+<hr>
+
+<div id="tomb">
+
+<div id="question"></div>
+<button onclick="question1.check(1)" id="Tom"></button>
+<button onclick="question1.check(2)" id="Grant"></button>
+<button onclick="question1.check(3)" id="Sally"></button>
+<button onclick="question1.check(4)" id="Jordan"></button>
+
+<!-- Message Back to the User -->
+<div id="messageDisplay">
+<p id="message"></p>
+</div>
+</div>
+<hr>
+</article>
+
+
+
+
+</main>
+<footer>
+<p>Assignment for DGM2760 by James Hooper </p>
+</footer>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>

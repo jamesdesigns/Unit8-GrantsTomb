@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: rgb(214,219,191); /* Old browsers */
+	background: #403B4A;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #E7E9BB, #403B4A);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #E7E9BB, #403B4A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-repeat: repeat;
+}
+
+#wrapper {
+	width:1024px;
+	margin: 0 auto;
+	background-color: #fff;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+h1, h2, h3, h4, h5 {
+	margin-left: 2%;
+	color: #606060;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+}
+
+h1 {
+	font-size: 295%;
+}
+
+h2 {
+	font-size:120%;
+	color:#000066;
+}
+
+p {
+	margin-left: 2%;
+	color: #2a1910;
+	padding-top: 14px;
+}
+
+hr {
+	border: 1px dotted #ccc;
+}
+
+header {
+	height: 213px;
+	background-image: url("../images/Tomb-BG.jpg");
+	background-repeat: no-repeat;
+}
+
+button {
+	display: block;
+	width: 100%;
+	padding: 1%;
+	padding-left:2%;
+	font-size: 90%;
+	text-align: left;
+}
+
+button:focus {
+	background-color: #ffff00;
+}
+
+.tomb-title {
+	font-size: 190%;
+	font-weight: 500;
+	color:#000;
+}
+
+#company {
+	color:#fff;
+	text-shadow: 3px 3px #000;
+	margin-top: -7px;
+	padding-top: 10px;
+}
+
+#slogan {
+	color:#ccc;
+	text-shadow: 2px 2px #000;
+	margin-top:-30px;
+}
+
+#tomb {
+	display: block;
+	width: 80%;
+	height: 240px;
+	color: #fff;
+	margin-left: 2%;
+}
+
+#question {
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	padding: 15px 0 0 2%;
+	background-color: #5b473d;
+	height: 35px;
+}
+
+#messageDisplay {
+	height: 50px;
+	margin-top: -16px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	background-color: #ebc6c6;
+}
+
+.message {
+	color: #fff;
+}
+
+ul {
+    list-style-type: circle;
+    color:#6d3c37;
+}
+
+li {
+	color:#606060;;
+}
+
+footer {
+	background-color: #000;
+	margin-top: 20px;
+	color: #fff;
+	font-size: 85%;
+	height: 100px;
+	text-align: center;
+}
+
+footer p {
+	padding-top: 15px;
+}
